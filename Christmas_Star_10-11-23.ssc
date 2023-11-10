@@ -198,7 +198,7 @@ waitNextStep();
 
 ////////////////////////////////////////////////////////////////////////////////////////
 //
-//  STEP 3 - ALL CONSTELLATIONS FADE, ANNUAL MOTION FORWARD UNTIL MORNING OF 01 JUN 2 BC.
+//  STEP 3 - ALL CONSTELLATIONS FADE, ANNUAL MOTION FORWARD UNTIL MORNING OF 12 FEB 2 BC.
 //
 
 
@@ -249,10 +249,15 @@ waitNextStep();
 // ANNUAL MOTION TO 01 JUNE 2 BC
 
 function formatDate(dateString) {
+    var idx = 0;
+    if (dateString.slice(0, 1)=='-') {
+          idx = 1;
+    }
     var dateParts = dateString.split("-");
-    var year = parseInt(dateParts[0]);
-    var month = parseInt(dateParts[1]);
-    var day = parseInt(dateParts[2]);
+    var year = parseInt(dateParts[idx]);
+    if (idx==1) { year *= -1; }
+    var month = parseInt(dateParts[idx+1]);
+    var day = parseInt(dateParts[idx+2]);
 
     var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var formattedMonth = monthNames[month - 1];
@@ -281,7 +286,12 @@ var targetJDay = 1720843.58976; // Julian Day for 01 June 2 BC
 
 while (core.getJDay() < targetJDay) {
     core.setDate("+2 days"); // Increment the date by two days
-    var currentDate = core.getDate("utc").toString().slice(0, 10); // Get the current date as a string in the format "YYYY-MM-DD"
+    var currentDateTime = core.getDate("utc").toString();
+    var depth = 10;
+    if (currentDateTime.slice(0, 1)=='-') {
+          depth = 11;
+    }
+    var currentDate = core.getDate("utc").toString().slice(0, depth); // Get the current date as a string in the format "YYYY-MM-DD"
     var formattedDate = formatDate(currentDate); // Format the date to the desired format "DD Month YYYY BC/AD"
     LabelMgr.deleteLabel(labelID); // Delete the old label
     labelID = LabelMgr.labelHorizon(formattedDate, 160, 10, true, 30, "#ff0000"); // Create a new label with the updated date and store its ID
