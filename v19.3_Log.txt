@@ -1,0 +1,178 @@
+2023-12-06T13:24:28
+Operating System: Darwin 19.6.0 x86_64
+Compiled using Clang 9.0.0
+Qt runtime version: 5.9.8
+Qt compilation version: 5.9.8
+Addressing mode: 64-bit
+Model Name: MacBook Pro
+Model Identifier: MacBookPro15,2
+Processor Name: Quad-Core Intel Core i7
+Processor Speed: 2.8 GHz
+Number of Processors: 1
+Memory: 16 GB
+Chipset Model: Intel Iris Plus Graphics 655
+VRAM (Dynamic, Max): 1536 MB
+/Applications/Stellarium.app/Contents/MacOS/stellarium 
+ -----------------------------------------------------
+[ This is Stellarium 0.19.3 - https://stellarium.org/ ]
+[ Copyright (C) 2000-2019 Fabien Chereau et al.       ]
+ -----------------------------------------------------
+Writing log file to: "/Users/immersivetheatres2/Library/Application Support/Stellarium/log.txt"
+File search paths:
+  0 .  "/Users/immersivetheatres2/Library/Application Support/Stellarium"
+  1 .  "/Applications/Stellarium.app/Contents/Resources"
+Config file is:  "/Users/immersivetheatres2/Library/Application Support/Stellarium/config.ini"
+Default surface format:  QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::SwapBehavior(DefaultSwapBehavior), swapInterval 1, profile  QSurfaceFormat::OpenGLContextProfile(NoProfile))
+Desired surface format:  QSurfaceFormat(version 2.1, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::SwapBehavior(DefaultSwapBehavior), swapInterval 0, profile  QSurfaceFormat::OpenGLContextProfile(NoProfile))
+StelGLWidget constructor
+StelGraphicsScene constructor
+initializeGL
+OpenGL supported version:  "2.1 INTEL-14.7.28"
+Current Format:  QSurfaceFormat(version 2.1, options QFlags<QSurfaceFormat::FormatOption>(DeprecatedFunctions), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::SwapBehavior(DoubleBuffer), swapInterval 0, profile  QSurfaceFormat::OpenGLContextProfile(NoProfile))
+StelMainView::init
+Driver version string: "2.1 INTEL-14.7.28"
+GL vendor is "Intel Inc."
+GL renderer is "Intel(R) Iris(TM) Plus Graphics 655"
+GL Shading Language version is "1.20"
+Detected a high resolution device! Device pixel ratio: 2
+Cache directory is:  "/Users/immersivetheatres2/Library/Caches/stellarium/stellarium"
+Sky language is  "en_GB"
+Planetary features language is  "en_GB"
+Application language is  "en_GB"
+Couldn't load translations for language  "en_GB" in section "stellarium-scripts"
+Empty translation file for language  "en_GB" in section "stellarium-scripts"
+Scripts language is  "en_GB"
+Loading Solar System data (1: planets and moons) ...
+Loading from : "/Applications/Stellarium.app/Contents/Resources/data/ssystem_major.ini"
+Loaded 83 Solar System bodies
+Loading Solar System data (2: minor bodies)...
+Loading from : "/Users/immersivetheatres2/Library/Application Support/Stellarium/data/ssystem_minor.ini"
+Loaded 105 Solar System bodies
+File ssystem_minor.ini is loaded successfully...
+Loading nomenclature for Solar system bodies ...
+Loaded 15590 / 15592 items of planetary surface nomenclature
+WARNING - The next planets to assign nomenclature items is not found: "Dactyl"
+Loading star data ...
+"Loading /Applications/Stellarium.app/Contents/Resources/stars/default/stars_0_0v0_8.cat: 0_0v0_8; 4979"
+"Loading /Applications/Stellarium.app/Contents/Resources/stars/default/stars_1_0v0_8.cat: 1_0v0_8; 21806"
+"Loading /Applications/Stellarium.app/Contents/Resources/stars/default/stars_2_0v0_8.cat: 2_0v0_8; 150826"
+"Loading /Applications/Stellarium.app/Contents/Resources/stars/default/stars_3_1v0_4.cat: 3_1v0_4; 425807"
+"Loading /Users/immersivetheatres2/Library/Application Support/Stellarium/stars/default/stars_4_1v0_2.cat: 4_1v0_4; 1692779"
+Finished loading star catalogue data, max_geodesic_level:  4
+Loading scientific star names from "/Applications/Stellarium.app/Contents/Resources/stars/default/name.fab"
+Loaded 4507 / 4507 scientific star names
+Loading variable stars from "/Applications/Stellarium.app/Contents/Resources/stars/default/gcvs_hip_part.dat"
+Loaded 6862 / 6862 variable stars
+Loading double stars from "/Applications/Stellarium.app/Contents/Resources/stars/default/wds_hip_part.dat"
+Loaded 16412 / 16412 double stars
+Loading cross-identification data from "/Applications/Stellarium.app/Contents/Resources/stars/default/cross-id.dat"
+Loaded 108338 / 108338 cross-identification data records for stars
+Loading parallax errors data from "/Applications/Stellarium.app/Contents/Resources/stars/default/hip_plx_err.dat"
+Loaded 117703 / 117703 parallax error data records for stars
+navigation/preset_sky_time is a double - treating as jday: "2457594.58542"
+Loading DSO data ...
+[...] "Stellarium DSO Catalog, version 3.8 (standard edition)"
+Loaded 94394 DSO records
+Loading DSO outline data ...
+Loaded 72 DSO outline records successfully
+LandscapeMgr: initialized Cache for 100 MB.
+Loading star names from "/Applications/Stellarium.app/Contents/Resources/skycultures/western/star_names.fab"
+Loaded 1004 / 1004 common star names
+Loading DSO name data ...
+Loaded 1085 / 1098 DSO name records successfully
+WARNING - No position data for 13 objects: "PGC 2907, PGC 23521, PGC 28759, PGC 29167, PGC 34658, PGC 42102, PGC 54559, PGC 59117, PGC 73957, PGC 95597, PGC 100170, PGC 100170, PGC 119230"
+Loaded 88 / 88 constellation records successfully for culture "western"
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+Loaded 85 / 85 constellation art records successfully for culture "western"
+Loaded 88 / 88 constellation names
+Loading constellation boundary data ... 
+Loaded 782 constellation boundary segments
+Loaded 82 / 82 asterism records successfully for culture "western"
+Loaded 72 / 72 asterism names
+stel.OpenGLArray: Disabling VAO usage because of Intel driver bugs
+stel.OpenGLArray: Vertex Array Objects are not supported on your hardware (this is not an error)
+Initializing basic GL shaders... 
+Creating GUI ...
+Loaded plugin "Exoplanets"
+[Exoplanets] Version of the format of the catalog: 1
+[Exoplanets] loading catalog file: "/Users/immersivetheatres2/Library/Application Support/Stellarium/modules/Exoplanets/exoplanets.json"
+Loaded plugin "MeteorShowers"
+[MeteorShowersMgr] Loading catalog file: "/Users/immersivetheatres2/Library/Application Support/Stellarium/modules/MeteorShowers/showers.json"
+Loaded plugin "Novae"
+[Novae] version of the catalog: 1
+[Novae] loading catalog file: "/Users/immersivetheatres2/Library/Application Support/Stellarium/modules/Novae/novae.json"
+Loaded plugin "Oculars"
+Ocular plugin - press Command-O to toggle eyepiece view mode. Press ALT-o for configuration.
+Oculars::validateIniFile ocular.ini exists at:  "/Users/immersivetheatres2/Library/Application Support/Stellarium/modules/Oculars/ocular.ini" . Checking version...
+Oculars::validateIniFile found existing ini file version  3.1
+Loaded plugin "RemoteControl"
+RemoteControl using QtWebApp version 1.6.4-stellarium
+StaticFileController: docroot=/Applications/Stellarium.app/Contents/Resources/webroot, encoding=UTF-8, maxAge=60
+StaticFileController: cache timeout=60000, size=1048576
+RemoteControl enabled
+HttpListener: Listening on port 8090
+Loaded plugin "SolarSystemEditor"
+Using the ssystem_minor.ini file that already exists in the user directory...
+Initializing planets GL shaders... 
+"StelPainter: Warnings while linking transformShaderProgram shader program:\nWARNING: Could not find vertex shader attribute 'texCoord' to match BindAttributeLocation request.\nWARNING: Could not find vertex shader attribute 'normalIn' to match BindAttributeLocation request.\n"
