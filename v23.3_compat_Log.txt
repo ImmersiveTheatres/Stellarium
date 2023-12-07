@@ -1,0 +1,146 @@
+2023-12-07T16:59:50
+Operating System: macOS 14.1
+Compiled using Clang (Apple) 15.0.0
+Qt runtime version: 6.5.2
+Qt compilation version: 6.5.2
+Addressing mode: 64-bit
+./Stellarium.app/Contents/MacOS/stellarium --opengl-compat 
+ -------------------------------------------------------------
+[ This is Stellarium 23.3 (v23.3.0) - https://stellarium.org/ ]
+[ Copyright (C) 2000-2023 Stellarium Developers               ]
+ -------------------------------------------------------------
+Writing log file to: /Users/saltleyacademyplanetarium/Library/Application Support/Stellarium/log.txt
+File search paths:
+ [0]: /Users/saltleyacademyplanetarium/Library/Application Support/Stellarium
+ [1]: /Applications/Stellarium.app/Contents/Resources
+Config file: /Users/saltleyacademyplanetarium/Library/Application Support/Stellarium/config.ini
+Default surface format:  QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::DefaultSwapBehavior, swapInterval 1, colorSpace QColorSpace(), profile  QSurfaceFormat::NoProfile)
+OpenGL module type: desktop OpenGL
+Setting OpenGL Compatibility profile from command line...
+Default surface format:  QSurfaceFormat(version 3.3, options QFlags<QSurfaceFormat::FormatOption>(DeprecatedFunctions), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::DefaultSwapBehavior, swapInterval 0, colorSpace QColorSpace(), profile  QSurfaceFormat::CompatibilityProfile)
+OpenGL module type: desktop OpenGL
+Setting OpenGL Compatibility profile from command line...
+StelGLWidget constructor
+StelGraphicsScene constructor
+initializeGL(windowWidth = 512, windowHeight = 384)
+OpenGL supported version:  "2.1 Metal - 88"
+Current Format:  QSurfaceFormat(version 2.1, options QFlags<QSurfaceFormat::FormatOption>(DeprecatedFunctions), depthBufferSize 32, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize -1, stencilBufferSize 8, samples 0, swapBehavior QSurfaceFormat::DoubleBuffer, swapInterval 0, colorSpace QColorSpace(), profile  QSurfaceFormat::NoProfile)
+StelGLWidget context format version: 2 . 1
+StelGLWidget has CompatibilityProfile: no ( QSurfaceFormat::NoProfile )
+Initialization StelMainView
+Luminance textures are supported
+Maximum texture anisotropy: 16
+Maximum 2D texture size: 16384
+Driver version string: 2.1 Metal - 88
+GL vendor: Apple
+GL renderer: Apple M3 Pro
+GL Shading Language version: 1.20
+stel.OpenGLArray: Vertex Array Objects are supported
+Detected a high resolution device! Device pixel ratio: 2
+Sky language: en_GB
+Empty translation file for language  "en_GB" in section "stellarium-planetary-features"
+Planetary features language: en_GB
+Application language: en_GB
+Scripts language: en_GB
+Cache directory: /Users/saltleyacademyplanetarium/Library/Caches/stellarium/stellarium
+Loaded 252 countries
+Loaded 193 regions
+Loading Solar System data (1: planets and moons) ...
+Loading from: /Applications/Stellarium.app/Contents/Resources/data/ssystem_major.ini
+Solar System has 83 entries.
+Loaded 83 Solar System bodies
+Loading Solar System data (2: minor bodies) ...
+Loading from: /Applications/Stellarium.app/Contents/Resources/data/ssystem_minor.ini
+Solar System has 227 entries.
+Loaded 144 Solar System bodies
+File ssystem_minor.ini is loaded successfully...
+qt.gui.imageio: libpng warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Loading nomenclature for Solar system bodies ...
+Loaded 15932 / 15939 items of planetary surface nomenclature
+INFO: Cannot find these planetary objects to assign nomenclature items: "Dactyl, Dimorphos"
+Loading star data ...
+Loading star catalog: /Applications/Stellarium.app/Contents/Resources/stars/default/stars_0_0v0_8.cat - 0_0v0_8; 4979 entries
+Loading star catalog: /Applications/Stellarium.app/Contents/Resources/stars/default/stars_1_0v0_8.cat - 1_0v0_8; 21806 entries
+Loading star catalog: /Applications/Stellarium.app/Contents/Resources/stars/default/stars_2_0v0_8.cat - 2_0v0_8; 150826 entries
+Loading star catalog: /Applications/Stellarium.app/Contents/Resources/stars/default/stars_3_1v0_4.cat - 3_1v0_4; 425807 entries
+Finished loading star catalogue data, max_geodesic_level: 3
+Loading scientific star names from /Applications/Stellarium.app/Contents/Resources/stars/default/name.fab
+Loaded 4942 / 4942 scientific star names
+Loading scientific star extra names from /Applications/Stellarium.app/Contents/Resources/stars/default/extra_name.fab
+Loaded 26200 / 26200 scientific star extra names
+Loading variable stars from /Applications/Stellarium.app/Contents/Resources/stars/default/gcvs_hip_part.dat
+Loaded 6862 / 6862 variable stars
+Loading double stars from /Applications/Stellarium.app/Contents/Resources/stars/default/wds_hip_part.dat
+Loaded 22992 / 22992 double stars
+Loading cross-identification data from /Applications/Stellarium.app/Contents/Resources/stars/default/cross-id.dat
+Loaded 108378 / 108378 cross-identification data records for stars
+Loading parallax errors data from /Applications/Stellarium.app/Contents/Resources/stars/default/hip_plx_err.dat
+Loaded 117703 / 117703 parallax error data records for stars
+Loading proper motion data from /Applications/Stellarium.app/Contents/Resources/stars/default/hip_pm.dat
+qt.gui.imageio: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+Loaded 117955 / 117955 proper motion data records for stars
+navigation/preset_sky_time is a double - treating as jday: 2451514.25001
+Loading DSO data ...
+[...] Stellarium DSO Catalog, version 3.20 (standard edition)
+Loaded 94660 DSO records
+Loading DSO outline data ...
+Loaded 98 DSO outline records successfully
+Loading DSO discovery data ...
+Loaded 183 / 183 DSO discovery records successfully
+LandscapeMgr: initialized Cache for 100 MB.
+Loading star names from /Applications/Stellarium.app/Contents/Resources/skycultures/modern/star_names.fab
+Loaded 1104 / 1104 common star names
+Loading DSO name data ...
+Loaded 1318 / 1343 DSO name records successfully
+WARNING - No position data for 25 objects: PGC 2798, PGC 2907, PGC 23521, PGC 28759, PGC 29167, PGC 34658, PGC 42102, PGC 44750, PGC 54559, PGC 59117, PGC 59858, PGC 59953, PGC 69018, PGC 69877, PGC 73957, PGC 95597, PGC 100170, PGC 100170, PGC 119230, PGC 1000714, PGC 1436754, PGC 1694462, PGC 2822840, PGC 2826829, PGC 3098124
+Loaded 88 / 88 constellation records successfully for culture "modern"
+Loaded 85 / 85 constellation art records successfully for culture "modern"
+Loaded 88 / 88 constellation names
+Loading constellation boundary data ... 
+Loaded 782 constellation boundary segments
+Error in asterism "EnP" - can't find star with coordinates 4.1186 / 88.9226
+ERROR reading asterism lines record at line  74 for culture "modern"
+Error in asterism "TA1" - can't find star with coordinates 3.88679 / 63.4834
+ERROR reading asterism lines record at line  80 for culture "modern"
+Error in asterism "TA2" - can't find star with coordinates 3.42407 / 71.6847
+ERROR reading asterism lines record at line  82 for culture "modern"
+Error in asterism "TA3" - can't find star with coordinates 18.6163 / 72.2672
+ERROR reading asterism lines record at line  83 for culture "modern"
+Error in asterism "TA4" - can't find star with coordinates 14.2555 / 18.5829
+ERROR reading asterism lines record at line  85 for culture "modern"
+Error in asterism "TA5" - can't find star with coordinates 0.364622 / -23.0087
+ERROR reading asterism lines record at line  87 for culture "modern"
+Error in asterism "TA6" - can't find star with coordinates 2.20589 / 8.78867
+ERROR reading asterism lines record at line  88 for culture "modern"
+Error in asterism "TA8" - can't find star with coordinates 12.598 / -12.0689
+ERROR reading asterism lines record at line  91 for culture "modern"
+Error in asterism "TA9" - can't find star with coordinates 12.6438 / -11.3215
+ERROR reading asterism lines record at line  92 for culture "modern"
+Loaded 75 / 84 asterism records successfully for culture "modern"
+WARNING - asterism abbreviation "EnP" not found when loading asterism names
+WARNING - asterism abbreviation "TA1" not found when loading asterism names
+WARNING - asterism abbreviation "TA2" not found when loading asterism names
+WARNING - asterism abbreviation "TA3" not found when loading asterism names
+WARNING - asterism abbreviation "TA4" not found when loading asterism names
+WARNING - asterism abbreviation "TA5" not found when loading asterism names
+WARNING - asterism abbreviation "TA6" not found when loading asterism names
+WARNING - asterism abbreviation "TA8" not found when loading asterism names
+WARNING - asterism abbreviation "TA9" not found when loading asterism names
+Loaded 65 / 74 asterism names
+Initializing basic GL shaders... 
+Creating GUI ...
+Loading style file: :/graphicGui/normalStyle.css
+Loaded plugin "MeteorShowers"
+[MeteorShowersMgr] Loading catalog file: /Users/saltleyacademyplanetarium/Library/Application Support/Stellarium/modules/MeteorShowers/MeteorShowers.json
+[MeteorShowersMgr] Version of the format of the catalog: 2
+Loaded plugin "RemoteControl"
+RemoteControl using QtWebApp version 1.6.4-stellarium
+StaticFileController: docroot=/Applications/Stellarium.app/Contents/Resources/webroot, encoding=UTF-8, maxAge=60
+StaticFileController: cache timeout=60000, size=1048576
+RemoteControl enabled
+HttpListener: Listening on port 8090
+Initializing planets GL shaders... 
+StelPainter: Warnings while linking transformShaderProgram shader program:
+WARNING: Could not find vertex shader attribute 'texCoord' to match BindAttributeLocation request.
+WARNING: Could not find vertex shader attribute 'normalIn' to match BindAttributeLocation request.
+
